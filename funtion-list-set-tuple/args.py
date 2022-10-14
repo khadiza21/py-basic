@@ -36,5 +36,7 @@ def all_types (first, *args, **kargs):
     print(args)
     print(kargs)
 
-    
+
 all_types('abc','bcd', 'kjk', 'lll', name='abul', father='babul')
+
+
