@@ -33,14 +33,6 @@ result2 = addition(12,14)
 result3 = addition(num2=12, num1 = 14)
 result4 = addition(45)
 
-# args
-def multiply_args(*numbers):
-    result = 1
-    for num in numbers:
-        result = result * num
-    return result
 
-final_result = multiply_args(2,3,2,3,4,2,2)
-print(final_result)
 
 
