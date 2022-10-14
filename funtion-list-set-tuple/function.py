@@ -29,11 +29,10 @@ def addition(num1, num2=0, num3=1, num4 = 2):
     print (num1, num2)
     return total
 
-
-
 result2 = addition(12,14)
 result3 = addition(num2=12, num1 = 14)
 result4 = addition(45)
+
 
 
 

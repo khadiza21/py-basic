@@ -34,7 +34,13 @@ fullname = name_mixed(first='khadiza',last='vhuiya', middle='bint',father='abdul
 def all_types (first, *args, **kargs):
     print(first)
     print(args)
+    for word in args:
+        print(word)
     print(kargs)
+    for key, value in kargs.items():
+        print(key, value)
 all_types('abc','bcd', 'kjk', 'lll', name='abul', father='babul')
+
+
 
 
