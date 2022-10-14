@@ -17,6 +17,7 @@ output = multiply(2,4)
 print(output)
 
 
+
 # function reusability
 print('final number ', add(sum, output) )
 
@@ -27,6 +28,7 @@ def addition(num1, num2=0, num3=1, num4 = 2):
     total = num1 + num2
     print (num1, num2)
     return total
+
 
 
 result2 = addition(12,14)
