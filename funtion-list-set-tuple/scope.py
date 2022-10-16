@@ -1,5 +1,6 @@
 # global and local variable scope
 # global scope
+#  global keyword is not referable for use  in normal case. IN special case we can use
 balance = 345
 remaining = 10
 def total_cost (price, quantity):
