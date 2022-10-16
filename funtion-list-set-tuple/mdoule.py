@@ -1,4 +1,6 @@
 from unittest import result
+
+
 #import file type 01
 # import function
 # sum = function.add(45,56)
@@ -6,7 +8,8 @@ from unittest import result
 # result = function.multiply(12,3)
 
 #import file type 02
-from function import add, multiply 
+from function import add, multiply
+ 
 #import file type 03
 from function import *
 res = add(56,89)
