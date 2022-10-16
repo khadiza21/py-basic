@@ -8,11 +8,11 @@ def total_cost (price, quantity):
     vat = 45  #local
     cost = (price+vat )*quantity 
     remaining = balance-  cost 
-    print('remainging ',remaining)
+    print('remaining ',remaining)
     return cost 
 pay = total_cost(10,2)
 print(f'please pay: {pay}')
-print('remainging ',remaining)
+print('remaining ',remaining)
 
 
 
